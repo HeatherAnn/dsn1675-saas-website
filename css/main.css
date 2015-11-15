@@ -24,9 +24,22 @@ body{
 header{
   background-color: grey;
 }
+
+.button a{
+  background-color: white;
+  color: lightgrey;
+  border-radius: 10px;
+  text-decoration: none;
+  max-width: 20px;
+}
+.button a:hover, .button a.active{
+  background-color: lightgrey;
+  color: #fff;
+}
 .header-image{
   background-image: url(http://placehold.it/550x650);
   background-repeat: no-repeat;
+  background-size: cover;
 }
 footer{
   background-color: lightgrey;
