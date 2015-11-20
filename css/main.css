@@ -56,6 +56,21 @@ nav li{
   color: #fff;
   text-align: center;
 }
+.hero2{
+  max-height: 75vh;
+  position: relative;
+  overflow: hidden;
+  background: url(http://placehold.it/1010x445) no-repeat center top / cover;
+  padding-top: 22.6%;
+}
+.hero-content2{
+  padding: 0 1rem;
+  position: absolute;
+  width: 100%;
+  bottom: 15%;
+  color: #fff;
+  text-align: left;
+}
 
 footer{
   background-color: lightgrey;
