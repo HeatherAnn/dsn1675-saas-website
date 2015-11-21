@@ -62,7 +62,7 @@ nav li{
   position: relative;
   overflow: hidden;
   background: url(http://placehold.it/1010x445) no-repeat center top / cover;
-  padding-top: 22.6%;
+  padding-top: 80%;
   background-color: darkgrey;
 }
 .hero-content2{
@@ -82,10 +82,16 @@ footer{
   .hero{
     padding-top: 157%;
   }
+  .hero2{
+    padding-top: 80%;
+  }
 }
 @media only screen and (min-width: 24em){
   .hero{
     padding-top: 98%;
+  }
+  .hero2{
+    padding-top: 50%;
   }
 }
 @media only screen and (min-width: 32em){
