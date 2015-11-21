@@ -46,7 +46,7 @@ nav li{
   position: relative;
   overflow: hidden;
   background: url(http://placehold.it/1010x1157) no-repeat center top / cover;
-  padding-top: 87.29%;
+  padding-top: 220%;
   background-color: darkgrey;
 }
 .hero-content{
@@ -78,17 +78,31 @@ footer{
   background-color: lightgrey;
 }
 
-@media only screen and (min-width: 38em){
+@media only screen and (min-width: 18em){
+  .hero{
+    padding-top: 157%;
+  }
+}
+@media only screen and (min-width: 24em){
+  .hero{
+    padding-top: 98%;
+  }
+}
+@media only screen and (min-width: 32em){
   nav li{
     display: inline-block;}
 
-    .hero-content{
-      bottom: 50%;
+    .hero{
+      padding-top: 100%;
     }
-
 }
-@media only screen and (min-width: 60em){
-  .hero-content{
-    bottom: 40%;
+@media only screen and (min-width: 46em){
+  .hero{
+    padding-top: 150%;
+  }
+}
+@media only screen and (min-width: 62em){
+  .hero{
+    padding-top: 72%;
   }
 }
