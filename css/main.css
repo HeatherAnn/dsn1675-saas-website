@@ -35,7 +35,6 @@ nav li{
   background-color: #e34445;
   color: white;
   border-radius: 10px;
-  text-decoration: none;
 }
 .button a:hover, .button a.active{
   background-color: #f69a72;
@@ -46,7 +45,6 @@ nav li{
   background-color: white;
   color: #e34445;
   border-radius: 10px;
-  text-decoration: none;
 }
 .herobutton a:hover{
   background-color: white;
@@ -106,6 +104,9 @@ main{
 footer{
   color: white;
   background-color: #432a2a;
+}
+.footer{
+  color: white;
 }
 
 @media only screen and (min-width: 18em){
