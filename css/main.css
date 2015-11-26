@@ -22,7 +22,7 @@ body{
 }
 
 header{
-  background-color: grey;
+  background-color: white;
 }
 nav li{
   display: inline;
@@ -32,14 +32,25 @@ nav li{
 }
 .button a{
   width: 200px;
-  background-color: white;
-  color: lightgrey;
+  background-color: #e34445;
+  color: white;
   border-radius: 10px;
   text-decoration: none;
 }
 .button a:hover, .button a.active{
-  background-color: lightgrey;
+  background-color: #f69a72;
   color: #fff;
+}
+.herobutton a{
+  width: 200px;
+  background-color: white;
+  color: #e34445;
+  border-radius: 10px;
+  text-decoration: none;
+}
+.herobutton a:hover{
+  background-color: white;
+  color: #a1ae56;
 }
 .hero{
   max-height: 75vh;
@@ -61,7 +72,7 @@ nav li{
   max-height: 75vh;
   position: relative;
   overflow: hidden;
-  background: url(http://placehold.it/1010x445) no-repeat center top / cover;
+  background: url(http://placehold.it/1010x445/e34445) no-repeat center top / cover;
   padding-top: 80%;
   background-color: darkgrey;
 }
@@ -73,9 +84,13 @@ nav li{
   color: #fff;
   text-align: left;
 }
+main{
+  background-color: #e6e6e6;
+}
 
 footer{
-  background-color: lightgrey;
+  color: white;
+  background-color: #432a2a;
 }
 
 @media only screen and (min-width: 18em){
