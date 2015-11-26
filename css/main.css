@@ -54,7 +54,7 @@ nav li{
   max-height: 75vh;
   position: relative;
   overflow: hidden;
-  background: url(http://placehold.it/1010x1157) no-repeat center top / cover;
+  background: url(http://placehold.it/1010x1157/e34445) no-repeat center top / cover;
   padding-top: 220%;
   background-color: darkgrey;
 }
