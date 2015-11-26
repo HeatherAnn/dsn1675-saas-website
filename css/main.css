@@ -24,6 +24,9 @@ body{
 header{
   background-color: white;
 }
+.logo{
+  width: 80px;
+}
 nav li{
   display: inline;
 }
@@ -54,7 +57,7 @@ nav li{
   max-height: 75vh;
   position: relative;
   overflow: hidden;
-  background: url(http://placehold.it/1010x1157/e34445) no-repeat center top / cover;
+  background: url("../images/herobanner.png") no-repeat center top / cover;
   padding-top: 220%;
   background-color: darkgrey;
 }
@@ -90,6 +93,7 @@ main{
   background-size: 140px auto;
   background-repeat: no-repeat;
   background-position: center;
+  background-clip: border-box;
 }
 .icon2{
   background: url("../images/tomato.png");
