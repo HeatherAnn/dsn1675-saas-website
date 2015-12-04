@@ -30,6 +30,32 @@ header{
 nav li{
   display: inline;
 }
+
+.nav{
+  display: none;
+}
+
+.nav-check:checked ~ .nav{
+  display: block;
+}
+.nav-check{
+  position: absolute;
+  top: -3em;
+
+}
+.nav-label{
+  cursor: pointer;
+  font-size: 1.25rem;
+  display: inline-block;
+  width: 80px;
+  float: left;
+
+}
+.nav-label img{
+  display: block;
+  width: 100%;
+}
+
 .button li{
   width: 200px;
 }
@@ -109,36 +135,82 @@ footer{
   color: white;
   background-color: #432a2a;
 }
-.footer{
+.whitelink{
   color: white;
 }
 input + label{
   display: inline;
 }
 
-@media only screen and (min-width: 18em){
+.iconimg{
+  width: 90px;
+}
+
+
+.peach{
+  background-image: url("../images/peach.png");
+  background-size: 70px auto;
+  background-repeat: no-repeat;
+  background-position: center 1em;
+  padding: 5em 1em 1em 1em;
+  text-align: center;
+  clear: both;
+}
+
+.tomato{
+  background-image: url("../images/tomato.png");
+  background-size: 70px auto;
+  background-repeat: no-repeat;
+  background-position: center 1em;
+  padding: 5em 1em 1em 1em;
+  text-align: center;
+  clear: both;
+}
+
+.bean{
+  background-image: url("../images/bean.png");
+  background-size: 70px auto;
+  background-repeat: no-repeat;
+  background-position: center 1em;
+  padding: 5em 1em 1em 1em;
+  text-align: center;
+  clear: both;
+}
+
+@media only screen and (min-width: 15em){
   .hero{
-    padding-top: 157%;
+    padding-top: 300%;
   }
   .hero2{
     padding-top: 80%;
   }
 }
-@media only screen and (min-width: 24em){
+
+@media only screen and (min-width: 22em){
+
+  nav li{
+    display: inline-block;
+  }
   .hero{
-    padding-top: 98%;
+    padding-top: 300%;
   }
   .hero2{
     padding-top: 50%;
   }
 }
 @media only screen and (min-width: 32em){
-  nav li{
-    display: inline-block;}
+
 
     .hero{
-      padding-top: 100%;
+      padding-top: 130%;
     }
+
+  .nav{
+    display: block;
+  }
+  .nav-label{
+    display: none;
+  }
 }
 @media only screen and (min-width: 46em){
   .hero{
