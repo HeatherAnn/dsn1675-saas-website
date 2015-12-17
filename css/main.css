@@ -83,7 +83,7 @@ nav li{
   max-height: 75vh;
   position: relative;
   overflow: hidden;
-  background: url("../images/herobanner.png") no-repeat center top / cover;
+  background: url("../images/herobanner.jpg") no-repeat center top / cover;
   padding-top: 220%;
   background-color: darkgrey;
 }
@@ -99,7 +99,7 @@ nav li{
   max-height: 75vh;
   position: relative;
   overflow: hidden;
-  background: url(http://placehold.it/1010x445/e34445) no-repeat center top / cover;
+  background: url("../images/herobanner2.jpg") no-repeat center top / cover;
   padding-top: 80%;
   background-color: darkgrey;
 }
@@ -111,8 +111,26 @@ nav li{
   color: #fff;
   text-align: left;
 }
+.hero3{
+  max-height: 75vh;
+  position: relative;
+  overflow: hidden;
+  background: url("../images/herobanner3.jpg") no-repeat center top / cover;
+  padding-top: 80%;
+  background-color: darkgrey;
+}
+.hero-content3{
+  padding: 0 1rem;
+  position: absolute;
+  width: 100%;
+  bottom: 15%;
+  color: #fff;
+  text-align: left;
+}
+
+
 main{
-  background-color: #e6e6e6;
+  background-color: #c4cc76;
 }
 .icon{
   background: url("../images/peach.png");
@@ -144,12 +162,15 @@ input + label{
 
 .iconimg{
   width: 90px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 
 .peach{
   background-image: url("../images/peach.png");
-  background-size: 70px auto;
+  background-size: 80px auto;
   background-repeat: no-repeat;
   background-position: center 1em;
   padding: 5em 1em 1em 1em;
@@ -159,7 +180,7 @@ input + label{
 
 .tomato{
   background-image: url("../images/tomato.png");
-  background-size: 70px auto;
+  background-size: 80px auto;
   background-repeat: no-repeat;
   background-position: center 1em;
   padding: 5em 1em 1em 1em;
@@ -169,7 +190,7 @@ input + label{
 
 .bean{
   background-image: url("../images/bean.png");
-  background-size: 70px auto;
+  background-size: 80px auto;
   background-repeat: no-repeat;
   background-position: center 1em;
   padding: 5em 1em 1em 1em;
@@ -184,6 +205,9 @@ input + label{
   .hero2{
     padding-top: 80%;
   }
+  .hero3{
+    padding-top: 80%;
+  }
 }
 
 @media only screen and (min-width: 22em){
@@ -195,6 +219,9 @@ input + label{
     padding-top: 300%;
   }
   .hero2{
+    padding-top: 50%;
+  }
+  .hero3{
     padding-top: 50%;
   }
 }
