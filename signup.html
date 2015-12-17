@@ -24,7 +24,7 @@
 <header id="top" class="unit xs-1 s-1 m-1-4 l-1-4 pad-t pad-b">
   <div class="grid">
 <div class="unit xs-1-2 s-1-2 m-1 l-1">
-  <a  class="masthead" role="banner" href="index.html"><img class="gutter text-center" src="images/logo.png" alt="DigIn"></a>
+  <a  class="masthead" role="banner" href="index.html"><img class="gutter text-center headerlogo" src="images/logo.png" alt="DigIn"></a>
 </div>
 
 
@@ -44,10 +44,14 @@
 </header>
 
 
-
-  <main role="main" id="main" class="unit xs-1 s-1 m-3-4 l-3-4 gutter">
-  <h1>Let's get cooking.</h1>
-  <h4>Sign up using:</h4>
+  <main role="main" id="main" class="unit xs-1 s-1 m-3-4 l-3-4">
+    <div class="text-left">
+      <div class="hero4">
+      <div class="hero-content4">
+      <h2 class="yotta">Sign up free now — upgrade whenever.</h2>
+    </div>
+  </div>
+  </div>
   <a href="https://www.facebook.com/"><img src="images/facebook.png"></a>
   <a href="https://twitter.com/?lang=en"><img src="images/twitter.png"></a>
   <a href="https://plus.google.com/getstarted/getstarted?fww=1"><img src="images/google.png"></a>
@@ -56,44 +60,50 @@
 <form action="https://formspree.io/bisa0014@algonquinlive.com" method="post">
 
   <div class="grid">
-<div class="unit xs-1 s-1 m-1-2 l-1-2">
+<div class="unit xs-1 s-1 m-1-2 l-1-2 gutter">
 
 <fieldset>
-<div>
+
+<div class="pad-t">
+  <legend class="bold pad-b">Your Information</legend>
   <label for="First Name">First Name:</label>
   <input id="First Name" required name="First Name">
 </div>
 
-<div>
+<div class="pad-t">
   <label for="Last Name">Last Name:</label>
   <input id="Last Name" required name="Last Name">
 </div>
 
 
-  <div>
+  <div class="pad-t">
     <label  for="email">Email:</label>
     <input id="email" type="email" name="email" required placeholder="you@awesome.com">
   </div>
 
-  <div>
+  <div class="pad-t">
     <label  for="Phone Number">Phone Number:</label>
     <input id="Phone Number" type="tel" name="Phone Number" required placeholder="(613) 123-4567">
   </div>
 
-  <div>
+  <div class="pad-t">
     <label  for="username">Username:</label>
     <input id="username" type="username" name="username">
   </div>
 
-  <div>
+  <div class="pad-t">
     <label  for="password">Password:</label>
     <input id="password" type="password" name="password">
   </div>
+
+
 </fieldset>
 </div>
-<div class="unit xs-1 s-1 m-1-2 l-1-2">
+
+<div class="unit xs-1 s-1 m-1-2 l-1-2 gutter">
 <fieldset>
-  <div>
+  <div class="pad-t">
+    <legend class="bold pad-b">Payment Method</legend>
     <label for="account type">Account Type</label>
     <select id="account type" name="_account type">
       <option>Choose</option>
@@ -103,7 +113,7 @@
     </select>
   </div>
 
-    <legend>Payment Method</legend>
+
     <input id="Visa" type="radio" name="payment">
     <label for="Visa">Visa</label>
 
@@ -112,29 +122,26 @@
 
     <input id="Paypal" type="radio" name="feels">
     <label for="Paypal">Paypal</label>
+    </input>
 
-  </input>
-</fieldset>
-
-<fieldset>
-<div>
+<div class="pad-t">
   <label  for="Cardholder Name">Carholder Name:</label>
   <input id="Cardholder Name" type="Cardholder Name" name="Cardholder Name">
 </div>
 
-<div>
+<div class="pad-t">
   <label  for="Expiration Date">Expiration Date</label>
   <input id="Expiration Date" type="date" name="expiration">
 </div>
 
-<div>
+<div class="pad-t">
   <label  for="C.V.V.">C.V.V.</label>
   <input id="C.V.V." type="C.V.V." name="C.V.V.">
 </div>
 </fieldset>
 </div>
 
-<div class="button unit xs-1 pad-b">
+<div class="button unit xs-1 pad-b text-center">
 <a class="bold gutter" href="thanks.html">Submit</a>
 </div>
 

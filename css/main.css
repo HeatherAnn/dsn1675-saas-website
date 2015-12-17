@@ -27,6 +27,9 @@ header{
 .logo{
   width: 80px;
 }
+.headerlogo{
+  width: 120px;
+}
 nav li{
   display: inline;
 }
@@ -47,8 +50,8 @@ nav li{
   cursor: pointer;
   font-size: 1.25rem;
   display: inline-block;
-  width: 80px;
-  float: left;
+  width: 30px;
+  text-align: left;
 
 }
 .nav-label img{
@@ -128,6 +131,23 @@ nav li{
   text-align: left;
 }
 
+.hero4{
+  max-height: 75vh;
+  position: relative;
+  overflow: hidden;
+  background: url("../images/herobanner4.jpg") no-repeat center top / cover;
+  padding-top: 80%;
+  background-color: darkgrey;
+}
+.hero-content4{
+  padding: 0 1rem;
+  position: absolute;
+  width: 100%;
+  bottom: 15%;
+  color: #fff;
+  text-align: left;
+}
+
 
 main{
   background-color: #c4cc76;
@@ -165,6 +185,13 @@ input + label{
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+fieldset{
+  border-color: #e34445;
+  background-color: white;
+}
+legend{
+  color:#e34445;
 }
 
 
@@ -216,13 +243,16 @@ input + label{
     display: inline-block;
   }
   .hero{
-    padding-top: 300%;
+    padding-top: 200%;
   }
   .hero2{
     padding-top: 50%;
   }
   .hero3{
     padding-top: 50%;
+  }
+  .hero4{
+    padding-top: 50%
   }
 }
 @media only screen and (min-width: 32em){
@@ -232,6 +262,11 @@ input + label{
       padding-top: 130%;
     }
 
+}
+@media only screen and (min-width: 38em){
+  .headerlogo{
+    width: 200px;
+  }
   .nav{
     display: block;
   }
@@ -241,7 +276,7 @@ input + label{
 }
 @media only screen and (min-width: 46em){
   .hero{
-    padding-top: 150%;
+    padding-top: 96%;
   }
 }
 @media only screen and (min-width: 62em){
